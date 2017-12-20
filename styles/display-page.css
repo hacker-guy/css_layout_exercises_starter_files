@@ -1,0 +1,43 @@
+.mainbox {
+	height: 500px;
+	width: 800px ;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	border: 1px solid black;
+	font-size: 0;
+}
+
+.greenbox, .bluebox{
+	width: 50%;
+	height: 200px;
+	border:  1px solid black;
+	display: inline-block;
+}
+
+.bluebox {
+	background-color: blue;
+}
+
+.greenbox {
+	background-color: green;
+}
+
+.greybox, .blackbox, .orangebox {
+	width: 33.33%;
+	height: 300px;
+	border:  1px solid black;
+	display: inline-block;
+}
+
+.greybox {
+	background-color: gray;
+}
+
+.blackbox {
+	background-color: black;
+}
+
+.orangebox {
+	background-color: orange;
+}
